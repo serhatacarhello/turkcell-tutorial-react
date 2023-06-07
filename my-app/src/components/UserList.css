@@ -1,0 +1,24 @@
+.container {
+    display: flex;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.container > div {  
+  flex:1 1 50%;
+  border: 1px solid red;
+  padding: 2rem;
+  margin: 1rem 0;
+}
+
+ul, li {
+   margin: 0; 
+   padding: 0;
+   list-style-type: none;
+    padding: .5rem;
+
+}
+
+.leftSide ul > li:hover {
+    cursor: pointer; 
+    color: rgb(22, 7, 233);
+}
